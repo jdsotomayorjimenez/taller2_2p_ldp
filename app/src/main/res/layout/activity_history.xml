@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/survey_background"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingTop="44dp"
+    android:paddingRight="18dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/txtTituloHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="18dp"
+        android:text="Historial de Encuestas"
+        android:textColor="@color/survey_title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_panel"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:fadeScrollbars="true"
+        android:padding="10dp"
+        android:scrollbarSize="4dp"
+        android:scrollbarThumbVertical="@drawable/bg_scrollbar_thumb"
+        android:scrollbarTrackVertical="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_button_secondary"
+        android:fontFamily="sans-serif-medium"
+        android:minHeight="48dp"
+        android:text="Volver"
+        android:textColor="@color/survey_primary" />
+
+</LinearLayout>

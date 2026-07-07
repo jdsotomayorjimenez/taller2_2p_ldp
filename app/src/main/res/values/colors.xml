@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="survey_background">#F5F7FB</color>
+    <color name="survey_panel">#FFFFFFFF</color>
+    <color name="survey_primary">#006D77</color>
+    <color name="survey_primary_dark">#00545C</color>
+    <color name="survey_accent">#83C5BE</color>
+    <color name="survey_soft_accent">#DDF4F0</color>
+    <color name="survey_title">#0B4F6C</color>
+    <color name="survey_warning">#F4A261</color>
+    <color name="survey_text">#253238</color>
+    <color name="survey_text_secondary">#65727A</color>
+    <color name="survey_border">#D9E2E7</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
