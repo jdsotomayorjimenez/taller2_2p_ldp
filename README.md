@@ -257,22 +257,6 @@ El proyecto fue probado en un emulador Pixel 8 con Android 15 y mantiene `minSdk
 
 ---
 
-## Estado del taller
-
-| Caracteristica | Estado |
-|---|---|
-| Proyecto en Java | Completo |
-| Preguntas precargadas en SQLiteOpenHelper | Completo |
-| Interfaz dinamica desde SQLite | Completo |
-| Datos de cliente con nombre, apellido y correo | Completo |
-| 7 preguntas de opcion multiple | Completo |
-| Pregunta abierta de sugerencia | Completo |
-| Guardado offline en SQLite | Completo |
-| Historial agrupado por fecha | Completo |
-| Evidencias con capturas | Completo |
-| Compatibilidad con API 27 | Completo |
-
----
 
 ## Autor
 
